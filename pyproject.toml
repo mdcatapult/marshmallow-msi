@@ -1,0 +1,41 @@
+[project]
+name = "marshmallow"
+version = "0.1.0"
+description = "A Python project for processing mass spectrometry imaging data (imzml) acquired from Bruker or Waters instruments."
+authors = [
+    {name = "Ana-Maria Nastase",email = "ana-maria.nastase@md.catapult.org.uk"}
+]
+license = {text = "Creative Commons Attribution-NonCommercial 4.0 International License"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chardet (==5.2.0)",
+    "faiss-cpu (==1.8.0)",
+    "faiss-imputer (==0.1.1)",
+    "h5py (==3.11.0)",
+    "itk (==5.4)",
+    "itk-elastix (==0.19.0)",
+    "joblib (==1.3.2)",
+    "lightgbm (==4.6.0)",
+    "matplotlib (==3.8.2)",
+    "networkx (==3.3)",
+    "numpy (==1.25)",
+    "opencv-contrib-python (==4.8.1.78)",
+    "opencv-python (==4.8.0.76)",
+    "pandas (==1.5.3)",
+    "plotly (==5.17.0)",
+    "psutil (==5.9.5)",
+    "pyimzml (==1.5.3)",
+    "pyteomics (==4.7.2)",
+    "pytest (==8.3.5)",
+    "scikit-learn (==1.3.0)",
+    "scipy (==1.15.2)",
+    "seaborn (==0.13.2)",
+    "shap (==0.45.0)",
+    "scikit-image (==0.25)",
+    "umap-learn (==0.5.7)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
