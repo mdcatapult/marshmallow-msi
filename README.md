@@ -15,9 +15,7 @@ The rest of the modules inlcude:
 1. process_imat.py - Marshmallow class - which converts imzml files to imat object.
 2. synth_msi.py -  SynthMSI class - generates synthetic MSI dataset when given 2 binary masks.
 
-
-
-
+Instructions to be added soon.
 This project is set to be packaged soon.
 
 Shield: [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
