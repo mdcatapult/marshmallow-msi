@@ -1,4 +1,5 @@
-# marshmallow-msi
+# Note: This repository is not actively maintained. For the latest version, please contact the author.
+marshmallow-msi
 A Python project for processing mass spectrometry imaging data (imzml) acquired from Bruker or Waters instruments.
 
 Please cite: doi: https://doi.org/10.64898/2025.12.25.694368
@@ -15,7 +16,7 @@ The rest of the modules inlcude:
 1. process_imat.py - Marshmallow class - which converts imzml files to imat object.
 2. synth_msi.py -  SynthMSI class - generates synthetic MSI dataset when given 2 binary masks.
 
-Note: This repository is not actively maintained. For the latest version, please contact the author.
+
 
 Shield: [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
