@@ -7,16 +7,6 @@ A computational workflow for microscopy-guided ion identification in clinical ma
 Ana-Maria Năstase, Ping K. Yip,  Christopher E.G. Uff, Irma O’Meara,  Hervé Barjat
 
 
-The central class imat (which stands for image matrix)
-stores information about a mass spectrometry imaging dataset including its image size
-and mass channel intensities. This is the backbone of the rest of the modules of this
-Python project.
-
-The rest of the modules inlcude:
-1. process_imat.py - Marshmallow class - which converts imzml files to imat object.
-2. synth_msi.py -  SynthMSI class - generates synthetic MSI dataset when given 2 binary masks.
-
-
 
 Shield: [![CC BY-NC-ND 4.0][cc-by-nc-nd-shield]][cc-by-nc-nd]
 
