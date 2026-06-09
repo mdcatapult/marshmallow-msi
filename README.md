@@ -1,4 +1,4 @@
-# Note: This repository is not actively maintained. For the latest version, please contact the author.
+# Note: This repository is no longer maintained. For the latest version, please contact the author.
 marshmallow-msi: A Python project for processing mass spectrometry imaging data (imzml) acquired from Bruker or Waters instruments.
 author: anamaria-uofg
 
